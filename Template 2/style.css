@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+.container_primary {
+    width: 1600px;
+    margin: 0 auto;
+} 
+.container_secondary {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color:#ffffff;
+    z-index: 99;
+}
+.nav_left {
+    display: inline-block;
+}
+.nav_left a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 12px;
+
+}
+.nav_left a:hover {
+    background-color: rgb(210, 200, 200);
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    
+}
+nav ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 12px;
+    display: inline-block;
+}
+nav ul li a:hover {
+    background-color: rgb(210, 200, 200);
+}
+.banner_main {
+    position: relative;
+}
+.banner_main h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    font-size: 36px;
+    opacity: 0.60;
+}
+.banner_main img {
+    width: 100%;
+}
+
+#about_section {
+    margin: 90px 0px;
+}
+.about_content {
+    display: flex;
+    border-bottom: 1px solid rgb(192, 186, 186);
+    padding: 90px 0px;
+}
+.about_subcontent h2 {
+ text-align: center;
+}
+.about_subcontent h3 {
+    text-align: center;
+   }
+.about_preview {
+    padding: 12px 24px;
+}
+.about_subcontent {
+    padding: 12px 24px;
+}
+.about_subcontent h2 {
+    margin: 20px 0px 40px 0px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.about_subcontent h3 {
+    margin: 15px 0px;
+    font-weight: 400;
+}
+.about_subcontent p {
+    font-size: 18px;
+    line-height:20px;
+    margin: 10px 0px;
+    color: #757575;
+}
+.about_subcontent h4 {
+    margin: 50px 0px 20px 0px;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+}
+.contact_info {
+    border:none;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    padding: 15px;
+    margin: 15px 0px;
+}
+.contact_us h2 {
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.contact_us p {
+    margin-bottom: 30px;
+}
+.contact_us h3 {
+    color: #607d8b;
+    margin-bottom: 30px;
+}
+.contact_btn {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 156px;
+    margin-top: 20px;
+}
+.contact_btn a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+}
+footer {
+    background-color: #f1f1f1;
+    padding: 42px 0px;
+    margin-top: 100px;
+    text-align: center;
+}
+footer a {
+    color: #000000;
+}
